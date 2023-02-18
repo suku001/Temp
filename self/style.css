@@ -112,6 +112,12 @@
 
 
 @media screen and (max-width: 800px){
+    .container{
+        width: 90vw;
+    }
+
+
+
     .cont .row .box .b{
         margin-bottom: 10px;
     }
