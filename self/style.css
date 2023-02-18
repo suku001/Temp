@@ -79,7 +79,7 @@
       background-color: skyblue;
       border: none;
       width: 100%;
-      margin-top: 3.2vh;
+      margin-top: 3.7vh;
       padding: 10px;
   }
   
@@ -94,6 +94,10 @@
     height: auto;
     max-width: 100%;
   }
+
+  .const .row .column-33 {
+    margin: 2% 4%;
+  }
   
   @media screen and (max-width: 1000px) {
     .column-66,
@@ -107,3 +111,26 @@
   }
 
 
+@media screen and (max-width: 800px){
+    .cont .row .box .b{
+        margin-bottom: 10px;
+    }
+    .cont .row .box .b .sub button{  
+        margin-top: 7%;
+    }
+
+    .const {
+        overflow: auto;
+    }
+    .const .row .btn{
+        position: relative;
+        left: 20px;
+        bottom: 20px;
+    }
+    .const .row .column-33{
+        margin: auto;
+    }
+    .const .row .btn button{
+        margin: 10px;
+    }
+}
