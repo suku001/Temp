@@ -1,125 +1,153 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>S-HOME</title>
-    <style>
-        *{
-            padding: 0;margin: 0;
-            box-sizing: border-box;
-        }
-        .A{
-            width: 100vw;
-            max-height: max-content;
-            background-color: rgb(220, 115, 115);
-        }
-        .shead{ 
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-        .shead h2,p{
-            padding: 10px;
-            font-weight: bolder;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        nav{
-            height: 20vh;
-            /* margin-top: 30px; */
-        }
-        .link{
-            width: 60vw;
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        .link a{
-            
-            background-color: lightcoral;
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-            color: whitesmoke;
-            width: max-content;
-            margin: 2px;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        a:hover{
-            background-color: rgb(227, 84, 84);
-            transition: 1s;
-            font-weight: bold;
-            box-shadow: 2px 2px 0px black;
-        }
-
-        .menu{
-            visibility: hidden;
-        }
-
-        @media only screen and (min-width:650px){
-
-            .link{
-                width: 75vw;
-            }
-            .menu{
-               visibility: hidden;
-            }   
-        }
-        @media only screen and (max-width:800px){
-
-            .link{
-                width: 90vw;
-            }
-            .menu{
-               visibility: hidden;
-            }
-        }
-        @media only screen and (max-width:750px){
-            .link{
-                visibility: hidden;
-            }
-            .A{
-                height: 25vh;
-            }
-            .menu{
-
-                visibility:visible;
-                background-color: brown;
-                height: 6vh;
-                width: 100vw;
-                margin-top: -31vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .menu p{
-                text-align: center;
-            }
-        }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="A">
-        <div class="shead">
-            <h2 style="font-size: 35px; font-stretch: expanded;">ROCK TECHNOLOGIES</h2>
-            <p>This is RAMESH Sir Website for the students</p>
-        </div>
-        <nav>
-            <div class="link" >
-                <a href="#">ABOUT ME</a>
-                <a href="#">RESUME FORMAT</a>
-                <a href="#">MATERIAL</a>
-                <a href="#">JOBS & CAMPOUS PAPER</a>
-                <a href="#">COURSES</a>
-                <a href="#">C</a>
-                <a href="#">C + +</a>
-                <a href="#">DATA STRUCTURES</a>
-            </div>
-            <div class="menu">
-                <p>MENU</p>
-            </div>
-        </nav>
+
+<div style="text-align:center">
+  <h2>ROCK TECHNOLOGIES</h2>
+  <p>This is RAMESH Sir Website for the students</p>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">   
+        <h1 class="xlarge-font">Ramesh Sir</h1>
+        <h1 class="large-font">Contact : 9394884284</h1>
+        <p><span style="font-size:36px">Welcome to RAMESH SIR Site for students</span>
+        Like the page for Placements and More Study Materials and doubts sharing.For Online classes on C,C++,Data Structures and Algorithes, Phython (Core and Adv),core Java.Scripting Languages(HTML,java Script, Jquary etc)
+        </p>
+        <button class="button">Follow for more updates</button>
     </div>
+
+
+    <div class="column-33">
+        <img src="/pic.jpeg" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+
+    <div class="cont" style="background-color: #f1f1f1;">
+        <div class="row">
+            <div class="hd">
+                <h3 style="text-align: center;padding: 10px;"> Latest Courses</h3>
+            </div>
+            <div class="box">
+                <div class="b">
+                    <div class="top">
+                        <img src="/self/java.png" alt="Java" srcset="" width="100%" height="100%">    
+                    </div>
+                    <div class="btm">
+                        <p>Course : Java</p>
+                        <p>Fee : 0/-</p>
+                        <p>Dueration : 3 Weeks</p>
+                        <p>Host : Ramesh Sir</p>
+                        <p>Slots avilable :05</p>
+                    </div>
+                    <div class="sub">
+                        <button style="cursor: pointer;">Add Registration</button>
+                    </div>
+                </div>
+                <div class="b">
+                    <div class="top">
+                        <img src="/self/python.png" alt="Python" srcset="" style="width: 100%; height: 100%;">    
+                    </div>
+                    <div class="btm">
+                        <p>Course : Python</p>
+                        <p>Fee : 0/-</p>
+                        <p>Dueration : 3 Weeks</p>
+                        <p>Host : Ramesh Sir</p>
+                        <p>Slots avilable :05</p>
+                    </div>
+                    <div class="sub">
+                        <button style="cursor: pointer;">Add Registration</button>
+                    </div>
+                </div>
+                <div class="b">
+                    <div class="top">
+                        <img src="/self/c&cp.jpg" alt="c & c++" srcset="" style="width: 100%; height: 100%;">        
+                    </div>
+                    <div class="btm">
+                        <p>Course : C & C++</p>
+                        <p>Fee : 0/-</p>
+                        <p>Dueration : 3 Weeks</p>
+                        <p>Host : Ramesh Sir</p>
+                        <p>Slots avilable :05</p>
+                    </div>
+                    <div class="sub">
+                        <button style="cursor: pointer;">Add Registration</button>
+                    </div>
+                </div>
+                <div class="b">
+                    <div class="top">
+                      <img src="/self/web.jpg" alt="web" srcset="" style="width: 100%; height: 100%;">      
+                    </div>
+                    <div class="btm">
+                        <p>Course : Web Development</p>
+                        <p>Fee : 0/-</p>
+                        <p>Dueration : 3 Weeks</p>
+                        <p>Host : Ramesh Sir</p>
+                        <p>Slots avilable :05</p>
+                    </div>
+                    <div class="sub">
+                        <button style="cursor: pointer;">Add Registration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Clarity Section -->
+<!-- <div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="/self/projects.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Clarity</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Pixels, who?</b></h1>
+      <p><span style="font-size:24px">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="button" style="background-color:red">Read More</button>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- help disk -->
+  <div class="const" style="background-image: url('/self/background.jpg');background-position: center;background-size: cover;height: 90vh;">
+    <div class="row" style="display: flex;flex-direction: column;">
+      <div class="column-33">
+        <h1 class="xlarge-font">Help Disk</h1>
+        <p>We are currently hiring Skilled Programmers.Who can able to solve some daily life problems.If you’re a software development team lead or project manager, hiring a new developer can be a hassle. If it doesn’t go well, it can not only cost you time and money, but it can also bring down your existing team’s morale and make some surprise withdrawals on your sanity savings account.</p>
+      </div> 
+      <div class="btn" style="margin-left: 5%;">
+        <a href="#"><button style="width: 150px; padding: 10px;">Sell</button></a>
+        <a href="#"><button style="width: 150px;padding: 10px;">Buy</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Domains are open</b></h1>
+      <p><span style="font-size:36px">Write program like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="button">Download Application</button>
+    </div>
+    <div class="column-33">
+        <img src="/self/basha1.png" width="335" height="471" >
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
