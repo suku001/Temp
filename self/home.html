@@ -1,0 +1,125 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>S-HOME</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+            box-sizing: border-box;
+        }
+        .A{
+            width: 100vw;
+            max-height: max-content;
+            background-color: rgb(220, 115, 115);
+        }
+        .shead{ 
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .shead h2,p{
+            padding: 10px;
+            font-weight: bolder;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            height: 20vh;
+            /* margin-top: 30px; */
+        }
+        .link{
+            width: 60vw;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .link a{
+            
+            background-color: lightcoral;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: whitesmoke;
+            width: max-content;
+            margin: 2px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a:hover{
+            background-color: rgb(227, 84, 84);
+            transition: 1s;
+            font-weight: bold;
+            box-shadow: 2px 2px 0px black;
+        }
+
+        .menu{
+            visibility: hidden;
+        }
+
+        @media only screen and (min-width:650px){
+
+            .link{
+                width: 75vw;
+            }
+            .menu{
+               visibility: hidden;
+            }   
+        }
+        @media only screen and (max-width:800px){
+
+            .link{
+                width: 90vw;
+            }
+            .menu{
+               visibility: hidden;
+            }
+        }
+        @media only screen and (max-width:750px){
+            .link{
+                visibility: hidden;
+            }
+            .A{
+                height: 25vh;
+            }
+            .menu{
+
+                visibility:visible;
+                background-color: brown;
+                height: 6vh;
+                width: 100vw;
+                margin-top: -31vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu p{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="A">
+        <div class="shead">
+            <h2 style="font-size: 35px; font-stretch: expanded;">ROCK TECHNOLOGIES</h2>
+            <p>This is RAMESH Sir Website for the students</p>
+        </div>
+        <nav>
+            <div class="link" >
+                <a href="#">ABOUT ME</a>
+                <a href="#">RESUME FORMAT</a>
+                <a href="#">MATERIAL</a>
+                <a href="#">JOBS & CAMPOUS PAPER</a>
+                <a href="#">COURSES</a>
+                <a href="#">C</a>
+                <a href="#">C + +</a>
+                <a href="#">DATA STRUCTURES</a>
+            </div>
+            <div class="menu">
+                <p>MENU</p>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
