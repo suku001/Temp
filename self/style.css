@@ -108,6 +108,9 @@
     img {
       margin: auto;
     }
+    .container .column-33 h1{
+        padding: 0px;
+    }
     .container .column-66{
         width: 100%;
         padding: 0;
