@@ -44,10 +44,10 @@
             background-color: black;
         }
         #p1{
-            background-image: url('/main/p1.jpg');
+            background-image: url('/main/p11.jpg');
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100%;
+            background-position:center;
+            background-size: cover;
         }
         #p1 .top{
             display: flex;
