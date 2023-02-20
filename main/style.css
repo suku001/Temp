@@ -58,7 +58,7 @@
         }
         #p1 .top .link a {
             padding: 8px;
-            margin: 0 16px;
+            margin: 0 10px;
         }
         #p1 .top .link a.active{
             background-color: blueviolet;
