@@ -1,0 +1,72 @@
+*{
+    padding: 0;margin: 0;box-sizing: 0;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/main/set.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    width: 30%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px black;
+}
+#fname,#fpass
+{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+
+#sub{
+    width: 250px;
+    padding: 10px;
+    color: black;
+    background-color: lightblue;
+    font-size:medium;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: -10%;
+}
+
+
+
+@media only screen and (max-width:500px){
+    form{
+        width: 80%;
+        height: 65%;
+    }
+    #sub{
+        position: relative;
+        top: 5%;
+    }
+}
